@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/quran_bg"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/name_of_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="241dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="القرآن أحاديث"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/format1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name_of_app"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="315dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/format1"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/ahadees_card"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginHorizontal="8dp"
+                android:elevation="10dp"
+                app:cardCornerRadius="14dp"
+                app:cardBackgroundColor="#013220"
+                app:cardElevation="20dp"
+                app:cardPreventCornerOverlap="false"
+                android:clickable="true"
+                app:strokeColor="#FFD700"
+                app:strokeWidth="4dp"
+                android:alpha="0.7">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" دلائل الخیرات شریف"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+
+                />
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/surah_card"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="70dp"
+                android:layout_marginHorizontal="20dp"
+                android:elevation="10dp"
+                app:cardCornerRadius="14dp"
+                app:cardBackgroundColor="#013220"
+                app:cardElevation="20dp"
+                app:cardPreventCornerOverlap="false"
+                android:clickable="true"
+                app:strokeColor="#FFD700"
+                app:strokeWidth="4dp"
+                android:alpha="0.7">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Qurani Surah"
+                    android:textColor="@color/white"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:textSize="40sp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+
+                    />
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/dua_card"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="20dp"
+                android:elevation="10dp"
+                app:cardCornerRadius="14dp"
+                app:cardBackgroundColor="#013220"
+                app:cardElevation="20dp"
+                app:cardPreventCornerOverlap="false"
+                android:clickable="true"
+                app:strokeColor="#FFD700"
+                app:strokeWidth="4dp"
+                android:alpha="0.7">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Masnoon Dua"
+                    android:textColor="@color/white"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:textSize="40sp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+
+                    />
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
