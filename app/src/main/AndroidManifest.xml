@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hadith">
         <activity
+            android:name=".DksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DalailUlKhairatActivity"
+            android:exported="false" />
+        <activity
             android:name=".DuaActivity"
             android:exported="false" />
         <activity

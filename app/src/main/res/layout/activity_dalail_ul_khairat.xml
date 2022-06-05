@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DalailUlKhairatActivity"
+    android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_dalail_ul_kherat"
+            android:layout_marginTop="10dp"
+            style="@style/Widget.Material3.CardView.Elevated"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginHorizontal="7dp"
+            android:clickable="true"
+            android:elevation="20dp"
+            app:cardBackgroundColor="#507D2a"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="20dp"
+            app:cardMaxElevation="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/main_text_dalail_ul_kherat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginVertical="10dp"
+                android:text="دلائل الخیرات شریف"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_aghaz_dalail_ul_kherat"
+            style="@style/Widget.Material3.CardView.Elevated"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginHorizontal="7dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:elevation="20dp"
+            app:cardBackgroundColor="#507D2a"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="20dp"
+            app:cardMaxElevation="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/card_dalail_ul_kherat"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/card_dalail_ul_kherat"
+            app:layout_constraintTop_toBottomOf="@+id/card_dalail_ul_kherat"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/text_aghaz_dalail_ul_kherat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginVertical="10dp"
+                android:text="نیت آغازِ دلائل الخیرات"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_monday"
+            style="@style/Widget.Material3.CardView.Elevated"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginHorizontal="7dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:elevation="20dp"
+            app:cardBackgroundColor="#507D2a"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="20dp"
+            app:cardMaxElevation="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/card_aghaz_dalail_ul_kherat"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/card_aghaz_dalail_ul_kherat"
+            app:layout_constraintTop_toBottomOf="@+id/card_aghaz_dalail_ul_kherat"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/text_monday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginVertical="10dp"
+                android:text="Monday پہلا حِزْب"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_tuesday"
+            style="@style/Widget.Material3.CardView.Elevated"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginHorizontal="7dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:elevation="20dp"
+            app:cardBackgroundColor="#507D2a"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="20dp"
+            app:cardMaxElevation="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/card_monday"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/card_monday"
+            app:layout_constraintTop_toBottomOf="@+id/card_monday"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/text_tuesday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginVertical="10dp"
+                android:text="Tuesday پہلا حِزْب"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_wednesday"
+            style="@style/Widget.Material3.CardView.Elevated"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginHorizontal="7dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:elevation="20dp"
+            app:cardBackgroundColor="#507D2a"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="20dp"
+            app:cardMaxElevation="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/card_tuesday"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/card_tuesday"
+            app:layout_constraintTop_toBottomOf="@+id/card_tuesday"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/text_wednesday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginVertical="10dp"
+                android:text="Wednesday پہلا حِزْب"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_thursday"
+            style="@style/Widget.Material3.CardView.Elevated"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginHorizontal="7dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:elevation="20dp"
+            app:cardBackgroundColor="#507D2a"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="20dp"
+            app:cardMaxElevation="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/card_wednesday"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/card_wednesday"
+            app:layout_constraintTop_toBottomOf="@+id/card_wednesday"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/text_thursday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginVertical="10dp"
+                android:text="Thursday پہلا حِزْب"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_friday"
+            style="@style/Widget.Material3.CardView.Elevated"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginHorizontal="7dp"
+            android:layout_marginTop="8dp"
+            android:clickable="true"
+            android:elevation="20dp"
+            app:cardBackgroundColor="#507D2a"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="20dp"
+            app:cardMaxElevation="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/card_thursday"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/card_thursday"
+            app:layout_constraintTop_toBottomOf="@+id/card_thursday"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/text_friday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginVertical="10dp"
+                android:text="Friday پہلا حِزْب"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_saturday"
+                style="@style/Widget.Material3.CardView.Elevated"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginHorizontal="7dp"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:elevation="20dp"
+                app:cardBackgroundColor="#507D2a"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="20dp"
+                app:cardMaxElevation="20dp"
+                app:layout_constraintEnd_toEndOf="@+id/card_thursday"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/card_thursday"
+                app:layout_constraintTop_toBottomOf="@+id/card_thursday"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/text_saturday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginVertical="10dp"
+                    android:text="Saturday پہلا حِزْب"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_sunday"
+                style="@style/Widget.Material3.CardView.Elevated"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginHorizontal="7dp"
+                android:layout_marginTop="8dp"
+                android:clickable="true"
+                android:elevation="20dp"
+                app:cardBackgroundColor="#507D2a"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="20dp"
+                app:cardMaxElevation="20dp"
+                app:layout_constraintEnd_toEndOf="@+id/card_thursday"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/card_thursday"
+                app:layout_constraintTop_toBottomOf="@+id/card_thursday"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/text_sunday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginVertical="10dp"
+                    android:text="Sunday پہلا حِزْب"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_khatam_dalail_ul_kherat"
+                style="@style/Widget.Material3.CardView.Elevated"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginHorizontal="7dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="10dp"
+                android:clickable="true"
+                android:elevation="20dp"
+                app:cardBackgroundColor="#507D2a"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="20dp"
+                app:cardMaxElevation="20dp"
+                app:layout_constraintEnd_toEndOf="@+id/card_thursday"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/card_thursday"
+                app:layout_constraintTop_toBottomOf="@+id/card_thursday"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/text_khatam_dalail_ul_kherat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginVertical="10dp"
+                    android:text="دعائے ختم دلائل الخیرات"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
