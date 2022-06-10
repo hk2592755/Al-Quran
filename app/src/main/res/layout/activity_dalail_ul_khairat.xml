@@ -16,29 +16,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-<<<<<<< HEAD
-=======
-            tools:ignore="MissingConstraints">
-
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/card_dalail_ul_kherat"
-            android:layout_marginTop="10dp"
-            style="@style/Widget.Material3.CardView.Elevated"
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:layout_marginHorizontal="7dp"
-            android:clickable="true"
-            android:elevation="20dp"
-            app:cardBackgroundColor="#507D2a"
-            app:cardCornerRadius="10dp"
-            app:cardElevation="20dp"
-            app:cardMaxElevation="20dp"
->>>>>>> 9a8bd1edf0b5ce461517b79d5f11c467ce1274e3
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/card_dalail_ul_kherat"
