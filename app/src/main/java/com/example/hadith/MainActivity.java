@@ -43,26 +43,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-        MaterialCardView surah_card;
-
-        surah_card = findViewById(R.id.surah_card);
-        surah_card.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),SurahActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        MaterialCardView dua_card = (MaterialCardView) findViewById(R.id.dua_card);
-        dua_card.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),DuaActivity.class);
-                startActivity(intent);
-            }
-        });
-
     }
 }

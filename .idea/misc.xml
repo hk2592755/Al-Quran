@@ -3,10 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/izhan/AndroidStudioProjects/Hadith/Al-Quran/app/src/main/res/layout/activity_dalail_ul_khairat.xml" value="0.25" />
+        <entry key="..\:/Users/izhan/AndroidStudioProjects/Hadith/Al-Quran/app/src/main/res/layout/activity_cardone.xml" value="0.25" />
+        <entry key="..\:/Users/izhan/AndroidStudioProjects/Hadith/Al-Quran/app/src/main/res/layout/activity_dalail_ul_khairat.xml" value="0.2" />
         <entry key="..\:/Users/izhan/AndroidStudioProjects/Hadith/Al-Quran/app/src/main/res/layout/activity_dks.xml" value="0.14764492753623187" />
+        <entry key="..\:/Users/izhan/AndroidStudioProjects/Hadith/Al-Quran/app/src/main/res/layout/activity_dua.xml" value="0.14764492753623187" />
         <entry key="..\:/Users/izhan/AndroidStudioProjects/Hadith/Al-Quran/app/src/main/res/layout/activity_hadees.xml" value="0.14764492753623187" />
-        <entry key="..\:/Users/izhan/AndroidStudioProjects/Hadith/Al-Quran/app/src/main/res/layout/card.xml" value="0.14764492753623187" />
+        <entry key="..\:/Users/izhan/AndroidStudioProjects/Hadith/Al-Quran/app/src/main/res/layout/activity_main.xml" value="0.14764492753623187" />
+        <entry key="..\:/Users/izhan/AndroidStudioProjects/Hadith/Al-Quran/app/src/main/res/layout/activity_rvcardclick.xml" value="0.14764492753623187" />
+        <entry key="..\:/Users/izhan/AndroidStudioProjects/Hadith/Al-Quran/app/src/main/res/layout/activity_surah.xml" value="0.14764492753623187" />
+        <entry key="..\:/Users/izhan/AndroidStudioProjects/Hadith/Al-Quran/app/src/main/res/layout/card.xml" value="0.22" />
+        <entry key="..\:/Users/izhan/AndroidStudioProjects/Hadith/Al-Quran/app/src/main/res/layout/card_dua.xml" value="0.14764492753623187" />
+        <entry key="..\:/Users/izhan/AndroidStudioProjects/Hadith/Al-Quran/app/src/main/res/layout/card_surah.xml" value="0.14764492753623187" />
         <entry key="..\:/Users/izhan/AndroidStudioProjects/Hadith/app/src/main/res/drawable/stroke_color.xml" value="0.147" />
         <entry key="..\:/Users/izhan/AndroidStudioProjects/Hadith/app/src/main/res/layout/activity_dua.xml" value="0.14764492753623187" />
         <entry key="..\:/Users/izhan/AndroidStudioProjects/Hadith/app/src/main/res/layout/activity_hadees.xml" value="0.25" />
